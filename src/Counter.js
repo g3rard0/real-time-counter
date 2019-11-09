@@ -12,9 +12,9 @@ class Counter extends Component {
         <div className="counter">
           <div className="counter__value">{start}</div>
           <div className="counter__name">{name}: </div>
-          <Button size="large" icon onClick={handleIncrement}><Icon name="add" /></Button>
-          <Button size="large" icon onClick={handleDecrement}><Icon name="minus"/></Button>
-          <Button size="large" color="red" icon onClick={handleRemoval}><Icon name="trash alternate outline" /></Button>
+          <Button size="massive" icon onClick={handleIncrement}><Icon name="add" /></Button>
+          <Button size="massive" icon onClick={handleDecrement}><Icon name="minus"/></Button>
+          <Button size="massive" color="red" icon onClick={handleRemoval}><Icon name="trash alternate outline" /></Button>
         </div>
       </Segment>
   );

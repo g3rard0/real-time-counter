@@ -42,6 +42,7 @@ body {
 .ui.segment .counter__name {
   font-size: 1.4rem;
   line-height: 1.4;
+  margin-bottom: 6px;
 }
 
 .counter__value {
