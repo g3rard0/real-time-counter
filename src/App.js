@@ -52,11 +52,9 @@ class App extends Component {
         });
       }
        console.log(counters);
-      
       this.setState({
         counters: counters
       });
-      
     });
 
   }
@@ -69,7 +67,7 @@ class App extends Component {
     //push takes in a callback, called when an error occurs and after the operation completes
     eventRef.push({
       name,
-      start
+      start: parseInt(start)
     }, (error) => {
       if (error) {
         console.log('error, need to handle this');
@@ -90,6 +88,7 @@ class App extends Component {
   };
 
   handleChange = (event) => {
+    // console.log('handle change', event.target.name)
     this.setState({
       [event.target.name]: event.target.value
     });
