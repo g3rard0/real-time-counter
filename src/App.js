@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import firebase from './firebase.js';
 import Counter from './Counter';
-import { Button, Modal, Form } from 'semantic-ui-react';
+import { Button, Modal, Form, Icon } from 'semantic-ui-react';
 
 class App extends Component {
   state = {
@@ -126,6 +126,7 @@ class App extends Component {
                 </Form>
               </Modal.Content>
             </Modal>
+            <div id="footer">Made with <Icon name="heart" /> by <a href="https://github.com/g3rard0">Gerardo V</a></div>
       </div>
     );
   }

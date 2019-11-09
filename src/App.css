@@ -48,3 +48,8 @@ body {
 .counter__value {
   margin-bottom: 14px;
 }
+
+#footer {
+  font-size: .7rem;
+  margin-top: 40px;
+}
